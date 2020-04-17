@@ -1,7 +1,7 @@
 # PBL project: Chinese character recognition With Adaboost Algorithm
 김예빈(2017036480)
-양효용(2017057410)
 송유진(2016033063)
+양효용(2017057410)
 최윤정(2016033327)
 
 
