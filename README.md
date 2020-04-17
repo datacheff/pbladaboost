@@ -6,7 +6,12 @@
 
 
 ****
-
+### 연구의 필요성
+![스크린샷(152)](https://user-images.githubusercontent.com/48639285/79532993-c1f75500-80b1-11ea-970d-c1b4191b997b.png)
+![스크린샷(153)](https://user-images.githubusercontent.com/48639285/79532998-c3c11880-80b1-11ea-83f1-95ed46cec5e8.png)
+![스크린샷(154)](https://user-images.githubusercontent.com/48639285/79533000-c4f24580-80b1-11ea-9ef6-545923b538e7.png)
+![스크린샷(155)](https://user-images.githubusercontent.com/48639285/79533001-c4f24580-80b1-11ea-8105-2fb766dc7bfc.png)
+![스크린샷(156)](https://user-images.githubusercontent.com/48639285/79533002-c58adc00-80b1-11ea-8817-62d4d6725efe.png)
 
 
 ### 사용한 데이터 셋
