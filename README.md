@@ -19,7 +19,7 @@ gnt 확장자로 되어 있는 train dataset과 test dataset을 모두 다운 �
 여기에서는 HDF5 data set을 200개 문자 클래스로 변환하였습니다.
 
 ### 2) adaboost 생성
-##### 네 번째 파일: whynot.py
+##### 세 번째 파일: whynot.py
 테스트 데이터는 저장된 라벨이 순서대로 저장되어 있지 않고 랜덤하게 저장되어 있어
 이에 대해서 tstlist.txt 파일로 라벨을 저장하였습니다.
 200개의 한자 라벨에서 1이 몇번째 있는지를 받아와 몇번째 한자인지를 숫자로 저장하였습니다.
@@ -37,7 +37,7 @@ gnt 확장자로 되어 있는 train dataset과 test dataset을 모두 다운 �
 '糕','占'
 
 
-##### 세 번째 파일: makedataset.py
+##### 네 번째 파일: makedataset.py
 hdf5에 넣어져 있는 ['trn/ x'],['tst/x'] 데이터 셋을 이차원 행렬로 변환시켰습니다.
 ['trn/y'],['tst/y']에 저장된 한자 라벨을 리스트로 변환하였습니다.
 
