@@ -7,6 +7,8 @@
 
 ****
 
+
+
 ### 사용한 데이터 셋
 ##### http://www.nlpr.ia.ac.cn/databases/handwriting/Download.html
 에서 **CASIA-HWDB1.1** 데이터 셋을 사용하였습니다. 
