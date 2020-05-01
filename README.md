@@ -71,7 +71,7 @@ hdf5에 넣어져 있는 ['trn/ x'],['tst/x'] 데이터 셋을 이차원 행렬�
 그리고 멀티클래스 분류를 활용한 요소 분류기 (MQDF)의 weak classifier는
 ![멀티클래스 분류를 활용한 요소분류기](https://user-images.githubusercontent.com/48639285/80782700-2fc37680-8bb2-11ea-8762-825e04b7ae00.PNG) 
 
-또한 [유사한 필기 한자 구별을 위한 다중 인스턴스 학습 기반 방법.docx](https://github.com/datacheff/pbladaboost/files/4562515/default.docx)논문에서도 이러한 방법을 사용한다는 것으로 정리해볼 수 있었습니다.
+또한 [유사한 필기 한자 구별을 위한 다중 인스턴스 학습 기반 방법.docx](https://github.com/datacheff/pbladaboost/files/4562515/default.docx)논문을 정리한 것에서도 이러한 방법을 사용한다는 것으로 정리해볼 수 있었습니다.
 
 
 그래서 저희는 부건에 해당하는 haar feature selection을 위해서 기존의 직사각형이 아닌 13가지의 부건결합 모형에 따른
