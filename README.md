@@ -59,7 +59,7 @@ hdf5에 넣어져 있는 ['trn/ x'],['tst/x'] 데이터 셋을 이차원 행렬�
 
 ##### 여섯 번째 파일: feature_bugan.py
 
-논문들에서 어떤 weak classifier를 사용했는지 정리해본 결과 SingleStump weak classifier 와 Haar-LikeStump weak classifier를 사용하였습니다.
+논문들에서 어떤 weak classifier를 사용했는지 정리해본 결과 SingleStump weak classifier 와 Haar-LikeStump weak classifier와 최종 분류기를 추출해내는 알고리즘에서 차이가 있는 방법들이 있었습니다.
 먼저 SingleStump weak classifier 는 피처를 이미지 픽셀값들로 넣어서 오차율이 50% 이상인 -1을 곱하고 오차율이 50퍼센트 이하인 경우 가중치에 1을 곱해줘서 훈련 설정 오류율을 50% 이하로 줄이는 방법입니다. 식은 아래와 같았습니다.
 ![adahx](https://user-images.githubusercontent.com/48639285/80779442-9e023c00-8ba6-11ea-80c6-a46bc5f4f92d.png)
 
@@ -67,6 +67,13 @@ hdf5에 넣어져 있는 ['trn/ x'],['tst/x'] 데이터 셋을 이차원 행렬�
 
 ![adaintel](https://user-images.githubusercontent.com/48639285/80779425-8dea5c80-8ba6-11ea-96cc-b70618c072ee.png)
 와 같이 좌표와 픽셀값을 추출하여 적분을 통해 이미지의 직사각형 피처에 대해서 훈련하는 약분류기였습니다.
+
+그리고 멀티클래스 분류를 활용한 요소 분류기 (MQDF)의 weak classifier는
+![멀티클래스 분류를 활용한 요소분류기](https://user-images.githubusercontent.com/48639285/80782700-2fc37680-8bb2-11ea-8762-825e04b7ae00.PNG) 
+
+또한 [유사한 필기 한자 구별을 위한 다중 인스턴스 학습 기반 방법.docx](https://github.com/datacheff/pbladaboost/files/4562515/default.docx)논문에서도 이러한 방법을 사용한다는 것으로 정리해볼 수 있었습니다.
+
+
 그래서 저희는 부건에 해당하는 haar feature selection을 위해서 기존의 직사각형이 아닌 13가지의 부건결합 모형에 따른
 haarlike feature selection 함수를 제작하고 있습니다.
 13가지 부건결합 모형은 다음과 같습니다.
