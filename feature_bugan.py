@@ -12,6 +12,16 @@ class Haar(object):
             'haartype3',
             'haartype4',
             'haartype5',
+            'haartype6',
+            'haartype7',
+            'haartype8',
+            'haartype9',
+            'haartype10',
+            'haartype11',
+            'haartype12',
+            'haartype13',
+            
+            
         )
 
         self.features = []
