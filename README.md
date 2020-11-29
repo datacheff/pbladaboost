@@ -8,6 +8,12 @@
 최종 코드는 zip으로 올렸습니다.
 위에는 일부 코드입니다.
 
+코드가 올라간 깃허브 코드와  https://github.com/datacheff/pbladaboost
+데이터가 있는 구글 드라이브 입니다.
+https://drive.google.com/drive/folders/1JfKpBbYu8yE0TJ9evEnC4h_wQhy9r9V1?usp=sharing
+
+감사합니다.
+
 ****
 ### 연구의 필요성
 ![스크린샷(152)](https://user-images.githubusercontent.com/48639285/79532993-c1f75500-80b1-11ea-970d-c1b4191b997b.png)
