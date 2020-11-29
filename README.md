@@ -5,7 +5,7 @@
 양효용(2017057410)
 최윤정(2016033327)
 
-최종 코드는 zip으로 올렸습니다.
+최종 코드는 드라이브에 올렸습니다.
 https://drive.google.com/drive/folders/1qsCUL8JNfp46_FknEHHrYrEg8LJ11wVl?usp=sharing
 위에는 일부 코드입니다.
 
