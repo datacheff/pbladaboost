@@ -6,6 +6,7 @@
 최윤정(2016033327)
 
 최종 코드는 zip으로 올렸습니다.
+https://drive.google.com/drive/folders/1qsCUL8JNfp46_FknEHHrYrEg8LJ11wVl?usp=sharing
 위에는 일부 코드입니다.
 
 데이터가 있는 구글 드라이브 입니다.
